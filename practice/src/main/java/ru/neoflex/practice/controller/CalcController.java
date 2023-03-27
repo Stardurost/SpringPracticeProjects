@@ -15,4 +15,14 @@ public class CalcController {
     public Integer Minus(@PathVariable("a") Integer a, @PathVariable("b") Integer b) {
         return a - b;
     }
+    @GetMapping("/vacation/{CountDaysWork}/{SalaryInYear}/{CountDaysVacation}")
+    public String VacationPayment(@PathVariable("CountDaysWork") Integer countDaysW,
+                                   @PathVariable("SalaryInYear") Double salaryInYear,
+                                   @PathVariable("CountDaysVacation") Integer countDaysV ) {
+        Double avgSalaryInDay = salaryInYear / countDaysW; // Средний дневной заработок для оплаты отпускных — это доход за расчетный период, поделенный на количество отработанных дней.
+        Double result = avgSalaryInDay * countDaysV;// Отпускные = среднедневной заработок × количество дней отпуска
+        String resultString = String.format("%.2f",result);
+        return "За отпуск "+countDaysV+" дней сотрудник получит "+resultString+" руб.";
+    }
+
 }
