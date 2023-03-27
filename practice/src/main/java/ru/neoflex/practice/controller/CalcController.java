@@ -19,10 +19,10 @@ public class CalcController {
     public String VacationPayment(@PathVariable("CountDaysWork") Integer countDaysW,            // количесто отработанных дней за год
                                    @PathVariable("SalaryInYear") Double salaryInYear,           // количествно зарплаты за год
                                    @PathVariable("CountDaysVacation") Integer countDaysV ) {    // количество дней отпуска для расчёта
-        Double avgSalaryInDay = salaryInYear / countDaysW;  // Средний дневной заработок для оплаты отпускных — это доход за расчетный период, поделенный на количество отработанных дней.
-        Double result = avgSalaryInDay * countDaysV;        // Отпускные = среднедневной заработок × количество дней отпуска
-        String resultString = String.format("%.2f",result);
-        return "За отпуск "+countDaysV+" дней сотрудник получит "+resultString+" руб.";
+        Double avgSalaryInDay = salaryInYear / countDaysW;      // Средний дневной заработок для оплаты отпускных — это доход за расчетный период, поделенный на количество отработанных дней.
+        Double result = avgSalaryInDay * countDaysV;            // Отпускные = среднедневной заработок × количество дней отпуска
+        String resultString = String.format("%.2f",result);     // округление результатов вычисления
+        return "За отпуск "+countDaysV+" дней сотрудник получит "+resultString+" руб.";         // возвращение результата вычисления 
     }
 
 }
