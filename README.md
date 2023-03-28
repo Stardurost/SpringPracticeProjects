@@ -1,17 +1,19 @@
 ## SpringPracticeProjects
+Runs by URL addres: http://localhost:8080/swagger-ui.html
+![image](https://user-images.githubusercontent.com/88589361/228136304-f69d1711-03b8-4f2a-9709-ccd0c9daac55.png)
+
 * Project 1: Getting sum of two numbers
-<br>runs by addres: 
-http://localhost:8080/plus/2/5
-<br>![image](https://user-images.githubusercontent.com/88589361/227967833-c7edaac9-cf0c-45fc-82b2-3c4022e05f95.png)
+![image](https://user-images.githubusercontent.com/88589361/228136582-44af30f9-5998-452f-9832-9a241d11b3e8.png)
+![image](https://user-images.githubusercontent.com/88589361/228136633-7a4eb097-4b6a-4e82-a911-05f88ff55e01.png)
 
 -------------
 * Project 2: Getting difference of two numbers
-<br>runs by addres: 
-http://localhost:8080/minus/5/2
-<br>![image](https://user-images.githubusercontent.com/88589361/227967765-fea75959-88e6-47e3-9cfb-b266618d6e51.png)
+![image](https://user-images.githubusercontent.com/88589361/228136704-23555485-980d-418f-98ed-c2f928eeb081.png)
+![image](https://user-images.githubusercontent.com/88589361/228136738-23cc66a8-b7fa-4d45-aa7e-76f124bcc863.png)
+
 
 -------------
 * Project 3: Getting value of vacation days
-<br>runs by addres: 
-http://localhost:8080/vacation/331/240000/28
-<br> ![image](https://user-images.githubusercontent.com/88589361/227967951-6862b487-7361-46e7-9249-0e3b6e42f3c8.png)
+![image](https://user-images.githubusercontent.com/88589361/228136465-19d4e6b5-e5d1-489b-8b56-80ee4b8a8a2c.png)
+![image](https://user-images.githubusercontent.com/88589361/228136513-1ac82293-27f2-4144-8f8b-0ab1f9f70f20.png)
+
