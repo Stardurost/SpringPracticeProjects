@@ -47,6 +47,7 @@ class PracticeApplicationTest {
 			.andExpect(status().isOk())
 			.andExpect(result -> result.getRequest().toString().contains(res+""));
 	}
+	
 	/**
 	 * Функция тестирования get запроса вычисления количества отпускных
 	 * тестовые значения: countDaysWork = 321, salaryInYear = 350000, countDaysVacation = 20
